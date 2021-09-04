@@ -8,10 +8,10 @@ public class Positive {
         int num = sc.nextInt();
 
         if(num > 0){
-            System.out.println( num + " is an even integer.");
+            System.out.println( num + " is a positive integer.");
         }else if(num < 0){
-            System.out.println(num +  " is an odd integer");
+            System.out.println(num +  " is a negative integer");
         }else
-            System.out.println("You have entered" + num);
+            System.out.println("You have entered " + num);
     }
 }
